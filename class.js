@@ -14,7 +14,7 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  // methods
+  // methods - function, but no need to declare with 'function' in front
   speak() {
     console.log(`${this.name}: hello!`);
   }
